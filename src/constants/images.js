@@ -55,7 +55,7 @@ import PESAPAL from "../assets/PESAPAL.png";
 export default {
   banknotes,
   RIGHTCURVE,
-  logo,
+
   undraw_login_re_4vu2,
   undraw_instant_support_re_iw6d,
   undraw_credit_card_re_blml,
