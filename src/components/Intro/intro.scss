@@ -1,0 +1,47 @@
+.intro__header {
+  margin-top: 50px;
+  color: var(--secondary-color);
+}
+
+.intro__container {
+  height: 100vh;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro__payment__container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  // background: url("../../assets/RIGHTCURVE.png");
+  background: #86b04a;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 30px;
+  flex: 0.3;
+  height: 100%;
+
+  img {
+    width: 50%;
+    background: transparent;
+  }
+}
+.intro__payment__desc {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+
+  // border: 1px solid red;
+  img {
+    width: 100%;
+  }
+}
